@@ -9,54 +9,87 @@
     <body>
         <header>
             <h1>From Room Held to Hand Held</h1>
-            <h2>A small history of computing power and its physical footprint</h2>
-            <h3>aka Moore's Law</h3>
+            <h2 id = "secondLine">A small history of computing power and its physical footprint</h2>
         </header>
-        <div style = "float:left" style = "width:50%"">
-            <figure>
+
+        <div class="keeptogether">
+            <img class="splitimage" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Gordon_Moore_Scientists_You_Must_Know_%28cropped%29.png" 
+            alt="Photo of Gordon Moore, co-founder of Intel"/>
+            <img class="splitimage" src="images/Charles_Babbage.jpg" alt = "Portrait of Charles Babbage" style = "height: 90%"/>
+            <figcaption style = "word-spacing: 1px">Heros of Computing: Image of computer scientist and businessman Gordon Moore.  
+                &nbsp;&nbsp;&nbsp;&nbsp;Image of Charles Babbage, considered the Father of Computing.</figcaption>
+
+        </div>
+       
+        <!-- <div class="grid">
+
+           <div class="img" style="background-image:
+           url('https://upload.wikimedia.org/wikipedia/commons/a/af/Gordon_Moore_Scientists_You_Must_Know_%28cropped%29.png')"></div>   
+           
+           <div class="img" style="background-image:
+            url('images/Charles_Babbage.jpg')"></div>
+            <figcaption>Some of the heros of Computing:Image of computer scientist and businessman Gordon Moore.  
+                    Image of Charles Babbage, considered the Father of Computing.</figcaption>
+        </div>
+         -->
+        
+
+
+
+
+
+
+
+
+
+        <!-- <div class = "firstDiv">
+
+            <figure id = "topImages">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Gordon_Moore_Scientists_You_Must_Know_%28cropped%29.png"
                 alt="Photo of Gordon Moore, co-founder of Intel"
-                style="width:40%"
-                /><img src= "images/Charles_Babbage.jpg" alt = "Portrait of Charles Babbage" style="width:40%"/>
+                /><img src= "images/Charles_Babbage.jpg" alt = "Portrait of Charles Babbage" />
                 <figcaption>Some of the heros of Computing:Image of computer scientist and businessman Gordon Moore.  
                     Image of Charles Babbage, considered the Father of Computing.</figcaption>
             </figure>
-        </div>
-    <main>
+        </div> -->
+            <main>
         <article>
-        <h2>The first computers</h2>
-        <p>Babbage's machines were among the first mechanical computers. That they were not actually 
-            completed was largely because of funding problems and clashes of personality. Babbage directed the building of some steam-powered machines 
-            that achieved some modest success, suggesting that calculations could be mechanised. For more than ten years he received government 
-            funding for his project, which amounted to £17,000, but eventually the Treasury lost confidence in him.
-            While Babbage's machines were mechanical and unwieldy, their basic architecture was similar to a modern computer. 
-            The data and program memory were separated, operation was instruction-based, the control unit could make conditional jumps, 
-            and the machine had a separate I/O unit.
-        </p>
-        <p>Babbage began in 1822 with what he called the difference engine, made to compute values of polynomial functions. 
-            It was created to calculate a series of values automatically. By using the method of finite differences, 
-            it was possible to avoid the need for multiplication and division. For a prototype difference engine, Babbage 
-            brought in Joseph Clement to implement the design, in 1823. Clement worked to high standards, 
-            but his machine tools were particularly elaborate. Under the standard terms of business of the time, 
-            he could charge for their construction, and would also own them. He and Babbage fell out over costs around 1831. 
-            Although Babbage received ample funding for the project, it was never completed. His design was finally constructed in 1989–1991, 
-            using his plans and 19th-century manufacturing tolerances. It performed its first calculation at the Science Museum, 
-            London, returning results to 31 digits. 
-            
-        </p>
-        <img id = "diffEngine" src = "images/1024px-Babbage_Difference_Engine.jpg" alt = "Difference Engine #2, built in 2000, per 1847 plans" />
-        <p>This first difference engine would have been composed of around 25,000 parts, weighed fifteen tons (13,600 kg), 
-            and would have been 8 ft (2.4 m) tall.
-        </p>
-        <p>After the attempt at making the first difference engine fell through, Babbage worked to design a more complex machine called the Analytical Engine.  
-            The Analytical Engine marks the transition from mechanised arithmetic to fully-fledged general purpose computation. 
-            It is largely on it that Babbage's standing as computer pioneer rests. The major innovation was that the Analytical Engine was to be programmed using 
-            punched cards: the Engine was intended to use loops of Jacquard's punched cards to control a mechanical calculator, 
-            which could use as input the results of preceding computations. The machine was also intended to employ several 
-            features subsequently used in modern computers, including sequential control, branching and looping.  Although never built
-            it would have the equivalent of 675 bytes of memory, and run at a clock speed of about 7 Hz.
-        </p>
-            <h2>Electronic computers (ENIAC)</h2>
+            <h2>The First Computers</h2>
+            <p>Babbage's machines were among the first mechanical computers. That they were not actually 
+                completed was largely because of funding problems and clashes of personality. Babbage directed the building of some steam-powered machines 
+                that achieved some modest success, suggesting that calculations could be mechanised. For more than ten years he received government 
+                funding for his project, which amounted to £17,000, but eventually the Treasury lost confidence in him.
+                While Babbage's machines were mechanical and unwieldy, their basic architecture was similar to a modern computer. 
+                The data and program memory were separated, operation was instruction-based, the control unit could make conditional jumps, 
+                and the machine had a separate I/O unit.
+            </p>
+            <p>Babbage began in 1822 with what he called the difference engine, made to compute values of polynomial functions. 
+                It was created to calculate a series of values automatically. By using the method of finite differences, 
+                it was possible to avoid the need for multiplication and division. For a prototype difference engine, Babbage 
+                brought in Joseph Clement to implement the design, in 1823. Clement worked to high standards, 
+                but his machine tools were particularly elaborate. Under the standard terms of business of the time, 
+                he could charge for their construction, and would also own them. He and Babbage fell out over costs around 1831. 
+                Although Babbage received ample funding for the project, it was never completed. His design was finally constructed in 1989–1991, 
+                using his plans and 19th-century manufacturing tolerances. It performed its first calculation at the Science Museum, 
+                London, returning results to 31 digits. 
+            </p>
+        <div>
+            <figure id = "diffEngine">
+                <img  id = "diffEnginePic" src = "images/1024px-Babbage_Difference_Engine.jpg" alt = "Difference Engine #2, built in 2000, per 1847 plans" />
+                <figcaption id = "diffEngineCaption">This first difference engine would have been composed of around 25,000 parts, weighed fifteen tons (13,600 kg), 
+                and would have been 8 ft (2.4 m) tall.
+                </figcaption>
+            </figure>
+        </div>
+            <p>After the attempt at making the first difference engine fell through, Babbage worked to design a more complex machine called the Analytical Engine.  
+                The Analytical Engine marks the transition from mechanised arithmetic to fully-fledged general purpose computation. 
+                It is largely on it that Babbage's standing as computer pioneer rests. The major innovation was that the Analytical Engine was to be programmed using 
+                punched cards: the Engine was intended to use loops of Jacquard's punched cards to control a mechanical calculator, 
+                which could use as input the results of preceding computations. The machine was also intended to employ several 
+                features subsequently used in modern computers, including sequential control, branching and looping.  Although never built
+                it would have the equivalent of 675 bytes of memory, and run at a clock speed of about 7 Hz.
+            </p>
+            <h2>Electronic Computers (ENIAC)</h2>
             <p>ENIAC (/ˈɛniæk/; Electronic Numerical Integrator and Computer) was the first electronic general-purpose computer. 
                 It was digital and able to solve "a large class of numerical problems" through reprogramming. ENIAC was 
                 completed in 1945 and first put to work for practical purposes on December 10, 1945.
@@ -74,25 +107,25 @@
             <p>PC History under development</p>
         </article>
         <section>
-                <h2>ToDos</h2>
-                <h3>Computer Types</h3>
-                <ul>
-                  <li>Babbage:Completed</li>
-                  <li>Eniac:Under Construction</li>
-                  <li>Unix: Stub</li>
-                  <li>PC: Stub</li>
-                  <li>Laptops</li>
-                  <li>Tablets</li>
-                  <li>Smart Phones</li>
-                </ul>
-              </section>
-    </main>
-    <footer>
+            <h2>ToDos</h2>
+            <h3>Computer Types</h3>
+            <ul>
+                <li>Babbage:Completed</li>
+                <li>Eniac:Under Construction</li>
+                <li>Unix: Stub</li>
+                <li>PC: Stub</li>
+                <li>Laptops</li>
+                <li>Tablets</li>
+                <li>Smart Phones</li>
+            </ul>
+        </section>
+        </main>
+        <footer>
             <p>Designed by: dconford</p>
             <p>Text and images sourced from Wikipedia Commons</p>
             <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
             <p>so long &#38 thanks for all the &amp&reg&#162&#163&#165&#169fish</p>
-    </footer>
+        </footer>
         <!-- <script src="script.js"></script> -->
     </body>
 </html>
